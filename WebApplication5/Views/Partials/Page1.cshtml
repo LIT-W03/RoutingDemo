@@ -1,0 +1,8 @@
+﻿@model WebApplication5.Controllers.PageOneViewModel
+
+<h1>PAGE 1</h1>
+<h1>@Model.CurrentDate.ToLongDateString()</h1>
+
+
+
+@{Html.RenderPartial("_SameForBoth", Model.Numbers);}

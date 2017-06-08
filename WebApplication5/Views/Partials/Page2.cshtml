@@ -1,0 +1,8 @@
+﻿@model WebApplication5.Controllers.PageTwoViewModel
+
+<h1>PAGE 2</h1>
+<h1>@Model.SomeText</h1>
+
+@{Html.RenderPartial("_SameForBoth", Model.Numbers);}
+
+<h1>ON PAGE TWO THERE IS MORE STUFF AFTER THE PARTIAL!!</h1>
